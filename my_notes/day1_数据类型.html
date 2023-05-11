@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta http-equip="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width,initial-scale=1.0">
+<title></title>
+</head>
+<body></body>
+
+<script>
+    //基本数据类型 number string boolean null undefined   NaN是number类型的数据，不是数据类型
+    //+默认转化为数字型，如果有‘’包裹的字符串，按字符串拼接
+    console.log(2-'li')//NaN
+    console.log(2+'2')//22
+    console.log(+"123")//123 数字型，单独使用有隐式转换的作用
+    console.log(typeof '123')// string
+    console.log(typeof +"123")//number
+    let num=prompt('请输入你的月薪')//prompt默认获取的是字符串
+    let num2=Number( prompt('请输入你的年薪'))//可以用强制类型转换或者 +
+    let num3=+prompt('请输入你的年薪')
+</script>
+
+<style></style>
+</html>

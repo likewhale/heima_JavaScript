@@ -1,0 +1,14 @@
+th {
+  padding: 5px 30px;
+}
+
+table {
+  border-collapse: collapse;
+  height: 100px;
+  margin: 0 auto;
+  text-align: center;
+}
+table th,
+table td {
+  border: 1px solid black;
+}/*# sourceMappingURL=day1_案例_style.css.map */
