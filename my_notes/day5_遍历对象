@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+    let arr = ["pink","blue","red"]
+    for (let k in arr){
+        console.log(k);// k为数组索引下标  0 1 2,but是字符串"0",所以遍历数组不推荐使用for in
+        console.log(arr[k]);
+    }
+    let obj ={
+        uname:"lkw",
+        gender:"男"
+    }
+    for(let k in obj){
+        console.log(k);//"uname" "gender"获取的key值是字符串
+        console.log(obj.k);// undefined 因为obj.k相当于obj."uname"
+        console.log(obj[k]);// lkw 男
+    }
+    </script>
+</body>
+</html>
